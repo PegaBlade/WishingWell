@@ -1,0 +1,103 @@
+body{
+	background-color: #9370db;
+	text-align: center;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+#rainbow{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, Red , Orange, Yellow, Green, Blue, Indigo, Violet);
+}
+
+#well{
+	border-width: 4px;
+	border-color: black;
+	border-radius: 8px;
+	border-style: solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+	font-family: sans-serif;
+	display: block;
+	width: 500px;
+	height: 650px;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+
+}
+
+#wish {
+     padding: 5px;
+     font-size: 16px;
+     border-width: 4px;
+     border-color: #000000;
+     background-color: #575757;
+     color: #ffffff;
+     border-style: solid;
+     border-radius: 8px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     resize: none;
+     text-align: center;
+}
+ .wish:focus {
+     outline:none;
+}
+
+.madeWish{
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	border-width: 4px;
+	width: 130px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #00bfff;
+}
+
+.button{
+	text-decoration: none;
+	color: #dc143c;
+}
+
+.madeWish:hover{
+	color: #c11537;
+	background-color: #0090c0;
+}
